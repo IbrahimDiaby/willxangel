@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="./css/global-form.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <header>
+
+    </header> -->
+    
+    <section>
+        <main>
+            <div class="clients">
+                <a href="#">Inscription</a>
+                | 
+                <a href="#">Connexion</a>
+            </div>
+
+            <div class="nav nav-contacts">
+                <div class="menu-container">
+                    <i id="fa-bars" class="fas fa-bars"></i>
+                    <i id="fa-times" class="fas fa-times"></i>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li class="link"><a href="./index.html">Accueil</a></li>
+                        <li class="link">
+                            <!-- <a href="./formation.html">Formation</a> -->
+                            <a href="#">Formation</a>
+                            <ul>
+                                <li class="subtitle">Infographie</li>
+                                <li class="subtitle">Montage Vidéo</li>
+                                <li class="subtitle">Programmation</li>
+                            </ul>
+                        </li>
+                        <li class="link">
+                            <!-- <a href="./services.html">Services</a> -->
+                            <a href="#">Services</a>
+                            <ul>
+                                <li class="subtitle"><a href="./vitrines.html">Vitrines</a></li>
+                            </ul>
+                        </li>
+                        <li class="link">
+                            <a href="#">Astuces </a>
+                            <ul>
+                                <li class="subtitle">Infographie</li>
+                                <li class="subtitle">Montage Vidéo</li>
+                                <li class="subtitle">Programmation</li>
+                            </ul>
+                        </li>
+                        <li class="active link"><a href="./contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <article>
+                <div class="title">
+                    <h1>Contacts</h1>
+                </div>
+
+                <div class="container">
+                    <p>
+                        Vous avez une suggestion ? Veuillez remplir ce formulaire pour contacter nous contacter.
+                    </p>
+
+                    <form action="./send_mail.php" method="post">
+                        <div class="">
+                            <input type="text" name="Name" id="Name" placeholder="Nom &amp; Prénoms" id="">
+                            <input type="text" name="Mail" id="Mail" placeholder="E-mail" id="">
+                        </div>
+                        <div class="">
+                            <input type="text" name="Tel" id="Tel" placeholder="Numéro de téléphone" id="">
+                            <input type="text" name="Object" id="Object" placeholder="Objet" id="">
+                        </div>
+                        <div class="">
+                            <textarea name="Message" id="Message" placeholder="Message..."></textarea>
+                        </div>
+                        <div class="">
+                            <input type="button" id="Submit" value="Envoyer">
+                        </div>
+                    </form>
+                    
+                </div>
+            </article>
+
+            <div class="footer">
+                <ul>
+                    <li><a href="#"><img src="./images/gmail.png" alt="Gmail" title="Gmail"></a></li>
+                    <li><a href="#"><img src="./images/instagram.png" alt="Instagram" title="Instagram"></a></li>
+                    <li><a href="#"><img src="./images/Youtube.png" alt="YouTube" title="YouTube"></a></li>
+                    <li><a href="#"><img src="./images/twitter.png" alt="Twitter" title="Twitter"></a></li>
+                    <li><a href="#"><img src="./images/Facebook.png" alt="Facebook" title="Facebook"></a></li>
+                </ul>
+                <div class="container">
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                    <div class="links">
+                        <h3>Liens Utiles</h3>
+                        <ul>
+                            <li><a href="./index.html">Accueil</a></li>
+                            <li><a href="./formation.html">Formation</a></li>
+                            <li><a href="./services.html">Services</a></li>
+                            <li><a href="#">Astuces</a></li>
+                            <li><a href="./contacts.html">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h3>Adresse</h3>
+                        <ul>
+                            <li><a href="#">Port-Bouet - 12 BP 2333 Abidjan 12</a></li>
+                            <li><a href="tel:+22578933298"><i class="fas fa-phone"></i> (+225) 78 93 32 98</a></li>
+                            <li><a href="tel:+22553878773"><i class="fas fa-phone"></i> (+225) 53 87 87 73</a></li>
+                            <li><a href="mailto:willoangels96@gmail.com"><i class="fas fa-mail-bulk"></i> willoangels96@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="pop-up">
+            <i class="fa fa-times" aria-hidden="true" id="closePopUp"></i>
+        </div>
+    </section>
+    
+    <!-- <footer>
+        
+    </footer> -->
+
+    <script src="./js/pop-up.js"></script>
+    <script src="./js/nav.js"></script>
+</body>
+</html>
